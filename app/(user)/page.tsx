@@ -3,7 +3,7 @@
 // import BlogList from "../../components/BlogList";
 // import PreviewBlogList from "../../components/PreviewBlogList";
 
-import About from "../(user)/about/page";
+import About from "./poem/page";
 
 
 // import About from "../../components/About";
