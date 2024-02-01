@@ -3,11 +3,16 @@
 // import BlogList from "../../components/BlogList";
 // import PreviewBlogList from "../../components/PreviewBlogList";
 
+import About from "../(user)/about/page";
 
-export default async function HomePage() {
-  
 
-  
+// import About from "../../components/About";
 
- 
+
+export default  function Home() {
+
+return(
+<About /> 
+
+)
 }

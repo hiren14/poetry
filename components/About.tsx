@@ -1,11 +1,10 @@
 import React from "react";
 
-const About = ()=>{
+function About() {
 return(  
 
-    <> <h1 data-text="About us" className="text-center text-7xl relative overflow-hidden pb-8  before:underlineunderline underline-offset-2 decoration-4 decoration-[#8F00FF]">
-  <span className="underline underline-offset-2 decoration-4 decoration-[#8F00FF]">
-  About us      </span>    
+    <> <h1 data-text="About us" className="text-center text-7xl underline underline-offset-2 decoration-4 decoration-[#8F00FF] pb-8  before:text-transparent">
+    About us 
    </h1>
    <br />
            <div className="max-w-full rounded overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
@@ -20,7 +19,7 @@ return(
      
       
      
-         Title: VerseForge: Open-Source Poetry Exploration
+      VerseForge: Open-Source Poetry Exploration
 
 Description:
 VerseForge is an innovative open-source project designed to unlock the beauty and power of poetry using the vast resources of the Poetry Foundation database, readily available on Kaggle. It's a collaborative platform that brings together poetry enthusiasts, developers, and researchers to explore, analyze, and appreciate the rich tapestry of poetic expression.

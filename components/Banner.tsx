@@ -14,7 +14,7 @@ const Banner = () => {
         >
           Welcome to{" "}
           <span className="underline underline-offset-2 decoration-4 decoration-[#8F00FF]">
-           Poetry sit
+           Poetry open Project
           </span>
           {""} To Find The .
         </h2>

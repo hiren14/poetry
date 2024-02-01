@@ -51,11 +51,22 @@ function NavBar() {
               }`}
             >
               <ul className="h-screen md:h-auto items-center justify-center md:flex ">
-                <li className="pb-6 text-xl text-black  dark:text-white py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
-                  <Link href="/About" onClick={() => setNavbar(!navbar)}>
+                {/* <li className="pb-6 text-xl text-black  dark:text-white py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
+                  <Link href="/poem" onClick={() => setNavbar(!navbar)}>
                     About
                   </Link>
+                </li> */}
+
+                <li className="pb-6 text-xl text-black  dark:text-white px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
+                  <Link href="/about" onClick={() => setNavbar(!navbar)}>
+                    About
+                  </Link>
+                </li>  <li className="pb-6 text-xl text-black  dark:text-white px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
+                  <Link href="/poem" onClick={() => setNavbar(!navbar)}>
+                    Poem 
+                  </Link>
                 </li>
+
                 <li className=" center pb-6 text-xl text-black  dark:text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
                 <DarkModeButton />
   
