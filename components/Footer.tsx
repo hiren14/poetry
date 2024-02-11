@@ -2,8 +2,19 @@ import React from "react";
 
 const Footer = () => {
   return (
+    <div className="justify-center">
+<br /><br />
+<div className="card  justify-center">
+
     <footer className="p-4 md:py-8 ">
+   
+    
+          <br />
+          <hr className="my-6 border-gray-400 lg:my-8 " />
+          
+             <iframe className="justify-center" src="https://docs.google.com/forms/d/e/1FAIpQLSePc506oCzD3Nt7MSeNttm5KvsqfWq84HOCy8fNp6T_f1ckwQ/viewform?embedded=true" width="350" height="520">Loading…</iframe>
       <hr className="my-6 border-gray-400 lg:my-8 " />
+      
       <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
       <div className="flex justify-center text-teal-600">
        <img className='border rounded-full px-1 py-1 h-15 w-10 lg:w-20 xl:w-20' src={"../profile-pic.jpg"} />
@@ -64,8 +75,10 @@ poetry       </p>
 </li> */}
       </ul>
     </div>
+    
     </footer>
-  );
+    </div>
+</div>  );
 };
 
 export default Footer;

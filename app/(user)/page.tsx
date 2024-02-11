@@ -3,7 +3,8 @@
 // import BlogList from "../../components/BlogList";
 // import PreviewBlogList from "../../components/PreviewBlogList";
 
-import About from "./poem/page";
+import CountOut from "../../components/CountOut";
+import Book from "../../components/booklaunch";
 
 
 // import About from "../../components/About";
@@ -12,7 +13,10 @@ import About from "./poem/page";
 export default  function Home() {
 
 return(
-<About /> 
-
+    <>
+    <CountOut />
+    <Book />
+    
+    </>
 )
 }
